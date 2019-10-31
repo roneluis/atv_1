@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Welcome</p>
+    <h1> Você é um visitante {{request.session.number}}</h1>
+    
+    <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Market!</h5>
+              <p class="card-text">Produtos</p>
+              <a href="/stock/list/" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
 </body>
 </html>
